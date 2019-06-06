@@ -1,9 +1,10 @@
 .topnav {
     overflow: hidden;
     background-color: #333;
-    position: relative;
+    position: absolute ;
     border-style: solid;
     border-radius: 20px;
+    width: 100%;
 }
 
 .topnav #myLinks {
@@ -87,7 +88,8 @@ p {
 
 p.titleManual {
     font-size: 10pt;
-    color: black;
+    color: orange;
+
     font-style: oblique;
 }
 

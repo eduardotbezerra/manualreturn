@@ -3,7 +3,6 @@
     background-color: #333;
     position: absolute ;
     border-style: solid;
-    border-radius: 20px;
     width: 100%;
 }
 
@@ -76,6 +75,7 @@ label {
 body {
     height: 82%;
     width: 100%;
+    
 }
 
 p {
@@ -182,6 +182,7 @@ form {
     margin-top: 100px;
     border-style: solid;
     border-radius: 10px;
+    background-repeat: no-repeat;
 }
 
 .imgsNoticias {
@@ -221,11 +222,10 @@ p.indicieManual{
 }
 #logo{
     width: 60%;
-    margin-left: 210px;;
-    margin-top: 30px;;
 }
 div.texto{
     text-align: center;
+    margin-top: -80vw;
 }
 div.modal-header{
     
@@ -245,3 +245,13 @@ p.modal-title{
     text-align: center;
     background: #4CAF50;
 }
+.imgsNoticia{
+    display: flex;
+    flex-direction: row;
+    background: rgb(white, 38, 0)  ;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+

@@ -254,4 +254,10 @@ p.modal-title{
     text-align: center;
 
 }
+.btEnviar{
+    height: 30px;
+    float: right;
+    border-style: solid;
+    border-radius: 5px;
+}
 
